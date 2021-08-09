@@ -1,0 +1,50 @@
+Wed Aug  4 14:42:02 CEST 2021: 210602_A00681_0383_BHFG5YDRXY has no ctg-interop folder 
+###################
+# INTEROP MULTIQC #
+###################
+> Runfolder: /projects/fs1/nas-sync/upload/210602_A00681_0383_BHFG5YDRXY
+> ID: ctg_interop_210602_A00681_0383_BHFG5YDRXY
+> Creating interop run report for folder: 
+/projects/fs1/nas-sync/upload/210602_A00681_0383_BHFG5YDRXY
+> Interop-summaries created can be found in: /projects/fs1/nas-sync/upload/210602_A00681_0383_BHFG5YDRXY/ctg-interop 
+Searching   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 2/2  > MultiQC interop report generated
+> Report name: multiqc_ctg_interop_210602_A00681_0383_BHFG5YDRXY
+> Report can be found in:
+- /projects/fs1/nas-sync/upload/210602_A00681_0383_BHFG5YDRXY/ctg-interop/
+ and
+- /projects/fs1/shared/ctg-qc/interop/
+Wed Aug  4 14:42:13 CEST 2021: >> executed ctg-interop-qc -> /projects/fs1/nas-sync/upload/210602_A00681_0383_BHFG5YDRXY
+Thu Aug  5 12:38:02 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-interop folder 
+Thu Aug  5 12:38:02 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/interop multiqc .html 
+Thu Aug  5 12:38:02 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/interop multiqc _data 
+###################
+# INTEROP MULTIQC #
+###################
+> Runfolder: /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+> ID: ctg_interop_210803_A00681_0434_AHGC2LDRXY
+> Creating interop run report for folder: 
+/projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+> Interop-summaries created can be found in: /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY/ctg-interop 
+Searching   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 2/2  > MultiQC interop report generated
+> Report name: multiqc_ctg_interop_210803_A00681_0434_AHGC2LDRXY
+> Report can be found in:
+- /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY/ctg-interop/
+ and
+- /projects/fs1/shared/ctg-qc/interop/
+Thu Aug  5 12:38:14 CEST 2021: >> executed ctg-interop-qc -> /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+Fri Aug  6 11:57:02 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-interop folder 
+###################
+# INTEROP MULTIQC #
+###################
+> Runfolder: /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+> ID: ctg_interop_210803_A00681_0434_AHGC2LDRXY
+> Creating interop run report for folder: 
+/projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+> Interop-summaries created can be found in: /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY/ctg-interop 
+Searching   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 2/2  > MultiQC interop report generated
+> Report name: multiqc_ctg_interop_210803_A00681_0434_AHGC2LDRXY
+> Report can be found in:
+- /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY/ctg-interop/
+ and
+- /projects/fs1/shared/ctg-qc/interop/
+Fri Aug  6 11:57:20 CEST 2021: >> executed ctg-interop-qc -> /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY

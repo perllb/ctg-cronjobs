@@ -1,0 +1,41 @@
+Wed Aug  4 14:42:13 CEST 2021: 210607_A00681_0387_AHCVJTDRXY has no ctg_SAV_saved_210607_A00681_0387_AHCVJTDRXY.done file 
+#######################
+# SAVE SAV ILLUMINA   #
+# - InterOp           #
+# - RunInfo.xml       #
+# - RunParameters.xml #
+#######################
+> Runfolder: /projects/fs1/nas-sync/upload/210607_A00681_0387_AHCVJTDRXY
+> ID: ctg_SAV_210607_A00681_0387_AHCVJTDRXY
+> overwriting folder
+> Saving SAV info for folder : 210607_A00681_0387_AHCVJTDRXY
+> Output dir                 : /projects/fs1/shared/ctg-qc/sav-illumina/ctg_SAV_210607_A00681_0387_AHCVJTDRXY
+> Saving:
+ - InterOp folder 
+ - RunParameters.xml 
+ - RunInfo.xml 
+> Done! 
+ - SAV info saved in /projects/fs1/shared/ctg-qc/sav-illumina/ctg_SAV_210607_A00681_0387_AHCVJTDRXY ! 
+Wed Aug  4 14:42:44 CEST 2021: >> executed ctg-sav-save -> /projects/fs1/nas-sync/upload/210607_A00681_0387_AHCVJTDRXY
+Thu Aug  5 12:38:14 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg_SAV_saved_210803_A00681_0434_AHGC2LDRXY.done file 
+Thu Aug  5 12:38:14 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY folder 
+Thu Aug  5 12:38:14 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY/RunInfo.xml file 
+Thu Aug  5 12:38:14 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY/RunParameters.xml file 
+Thu Aug  5 12:38:14 CEST 2021: 210803_A00681_0434_AHGC2LDRXY has no ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY/InterOp folder 
+#######################
+# SAVE SAV ILLUMINA   #
+# - InterOp           #
+# - RunInfo.xml       #
+# - RunParameters.xml #
+#######################
+> Runfolder: /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY
+> ID: ctg_SAV_210803_A00681_0434_AHGC2LDRXY
+> Saving SAV info for folder : 210803_A00681_0434_AHGC2LDRXY
+> Output dir                 : /projects/fs1/shared/ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY
+> Saving:
+ - InterOp folder 
+ - RunParameters.xml 
+ - RunInfo.xml 
+> Done! 
+ - SAV info saved in /projects/fs1/shared/ctg-qc/sav-illumina/ctg_SAV_210803_A00681_0434_AHGC2LDRXY ! 
+Thu Aug  5 12:38:17 CEST 2021: >> executed ctg-sav-save -> /projects/fs1/nas-sync/upload/210803_A00681_0434_AHGC2LDRXY

@@ -1,0 +1,68 @@
+Mon Aug  9 16:00:02 CEST 2021: 210629_A00681_0409_AH27C5DMXY : sc-rna-10x is not yet run -> start!
+
+> WARNING! No meta-ID specified
+- Using: '210629_0409-sc-rna-10x'
+> Resuming project '210629_0409-sc-rna-10x' 
+
+> WARNING! No samplesheet specified
+- Using 'CTG_SampleSheet.sc-rna-10x.csv'
+
+> The following arguments are entered:
+ID               : 210629_0409-sc-rna-10x
+Runfolder        : /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY 
+Sheet            : CTG_SampleSheet.sc-rna-10x.csv
+Index-type       : dual-index
+Bcl2fastq arg    : ''
+Custom Genome    : NONE 
+Demux            : YES 
+Resume           : NO 
+
+Runfolder          : /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY 
+Project Logfolder  : /projects/fs1/shared/ctg-projects/sc-rna-10x/210629_0409-sc-rna-10x
+QC Logfolder       : /projects/fs1/shared/ctg-qc/sc-rna-10x/210629_0409-sc-rna-10x
+Output             : /projects/fs1/nas-sync/ctg-delivery/sc-rna-10x/210629_0409-sc-rna-10x
+
+
+
+#################################
+# sc-rna-10x pipeline submitted #
+#################################
+
+
+Mon Aug  9 16:00:02 CEST 2021: >> started ctg-sc-rna-10x -> /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY
+Mon Aug  9 16:04:57 CEST 2021: 210629_A00681_0409_AH27C5DMXY : sc-rna-10x is not yet run -> start!
+
+> WARNING! No meta-ID specified
+- Using: '210629_0409-sc-rna-10x'
+Mon Aug  9 16:04:57 CEST 2021: >> started ctg-sc-rna-10x -> /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY
+Mon Aug  9 16:05:30 CEST 2021: 210629_A00681_0409_AH27C5DMXY : sc-rna-10x is not yet run -> start!
+
+> WARNING! No meta-ID specified
+- Using: '210629_0409-sc-rna-10x'
+
+> WARNING! No samplesheet specified
+- Using 'CTG_SampleSheet.sc-rna-10x.csv'
+
+> The following arguments are entered:
+ID               : 210629_0409-sc-rna-10x
+Runfolder        : /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY 
+Sheet            : CTG_SampleSheet.sc-rna-10x.csv
+Index-type       : dual-index
+Bcl2fastq arg    : ''
+Custom Genome    : NONE 
+Demux            : YES 
+Resume           : NO 
+
+Runfolder          : /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY 
+Project Logfolder  : /projects/fs1/shared/ctg-projects/sc-rna-10x/210629_0409-sc-rna-10x
+QC Logfolder       : /projects/fs1/shared/ctg-qc/sc-rna-10x/210629_0409-sc-rna-10x
+Output             : /projects/fs1/nas-sync/ctg-delivery/sc-rna-10x/210629_0409-sc-rna-10x
+
+
+
+#################################
+# sc-rna-10x pipeline submitted #
+#################################
+
+
+Mon Aug  9 16:05:30 CEST 2021: >> started ctg-sc-rna-10x -> /projects/fs1/nas-sync/upload/210629_A00681_0409_AH27C5DMXY
