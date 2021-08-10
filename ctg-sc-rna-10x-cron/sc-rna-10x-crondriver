@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 #####################
 # sc-rna-10x driver #
@@ -74,19 +74,19 @@ shift "$(( OPTIND -1 ))"
 
 # Check meta-id
 if [ -z $id ]; then
-    echo ""; echo "> WARNING! No meta-ID specified"
     metaid=$(echo $run | cut -f1,3 -d"_")
     id="${metaid}-sc-rna-10x"
-    echo "- Using: '${id}'"
 fi
 
 # Check if meta-ID already exist - then set new
 if [ "$resume" == 'n' ] && [ -d /projects/fs1/shared/ctg-projects/sc-rna-10x/$id ]; then
     # Prompt user to approve overwriting current sc-rna-10x project-folder
-	metaidnew="${metaid}_$(date +'%Y%m%d')" 
-	metaid=$metaidnew
+	idnew="${id}_$(date +'%Y-%m-%d')" 
+	id=$idnew
+	echo "New Metaid: $id"
 fi
 
+echo "- METAID: '${id}'"
 
 # Check samplesheet name
 if [ -z $sheet ]; then
@@ -179,7 +179,11 @@ cp $sheet $projdir
 # Go to ctg-project folder to execute pipeline
 cd $projdir
 
-nohup nextflow run $nf_pipe -resume > log.nf.sc-rna-10x.$id &
+module load Java
+module load nextflow/19.04.1
+module load Singularity
+
+nextflow run $nf_pipe > log.nf.sc-rna-10x.$id 
 
 echo ; echo 
 echo "#################################"

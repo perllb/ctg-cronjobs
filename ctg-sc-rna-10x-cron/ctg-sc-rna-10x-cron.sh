@@ -21,8 +21,8 @@ run_scrna10x(){
     rf=$1
     cd $rf 
     touch $rf/ctg.sc-rna-10x.start
-    echo "y" | $scdriver >> $cronlog
-    echo "$(date): >> started ctg-sc-rna-10x -> $rf" >> $cronlog
+    $scdriver >> $cronlog
+    echo "**CRON** $(date): >> started ctg-sc-rna-10x -> $rf" >> $cronlog
 }
 
 # Iterate over all runfolders
@@ -41,19 +41,19 @@ for runfolder in $(ls | grep "^2"); do
     
     # If CTG_SampleSheet.sc-rna-10x.csv
     if [ -f $rootfolder/$runfolder/CTG_SampleSheet.sc-rna-10x.csv ]; then
-	echo "$(date): $runfolder : CTG_SampleSheet.sc-rna-10x.csv exist.." 
-
+	#echo "$(date): $runfolder : CTG_SampleSheet.sc-rna-10x.csv exist.." 
+	runpipe=0
 	# If sync is complete
 	if [ -f $rootfolder/$runfolder/sync.done ] || [ -f $rootfolder/$runfolder/ctg.sync.done ] ; then
-	    echo "$(date): $runfolder: sync done" 
-
+	 #   echo "$(date): $runfolder: sync done" 
+	    runpipe=0
 	    # If sc-rna-10x is not run or started
 	    if [ -f $rootfolder/$runfolder/ctg.sc-rna-10x.start ] || [ -f $rootfolder/$runfolder/ctg.sc-rna-10x.done ] ;  then
-		echo "$(date): $runfolder : has already sc-rna-10x started / is done " 
-
+	#	echo "$(date): $runfolder : has already sc-rna-10x started / is done " 
+		runpipe=0
 	    # If sc-rna-10x is not started / run - set to run
 	    else 
-		echo "$(date): $runfolder : sc-rna-10x is not yet run -> start!" >> $cronlog
+		echo "**CRON** $(date): $runfolder : sc-rna-10x is not yet run -> start!" >> $cronlog
 		runpipe=1
 	    fi
 	fi
