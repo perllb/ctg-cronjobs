@@ -1,2 +1,3 @@
 # ctg-cronjobs
-ctg cronjobs  
+
+ctg cronjob-scripts
